@@ -118,9 +118,9 @@ def cos_sim(news):
         tfidf_matrix = tfidf_vect_ngram_char.fit_transform([news], [related_object[i]['snippet']])
         print(tfidf_matrix.shape(4, 11))
 
-        sim = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix).flatten()
+        similarity = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix).flatten()
 
-        print(sim)
+        print(similarity)
 
     return tfidf_matrix, sim
 
