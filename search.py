@@ -13,7 +13,7 @@ class Search(implements(ISearch)):
         # the Google APIs Console <http://code.google.com/apis/console>
         # to get an API key for your own application.
         service = build("customsearch", "v1",
-                        developerKey="AIzaSyCIQS3kHrZ5IuvkRMSgPiSLA2f3ZFXH5-U")
+                        developerKey="AIzaSyBfCFTuj3KKqSRaRllZZWuwKi3iecW8rQg")
 
         # respond
         res = service.cse().list(
