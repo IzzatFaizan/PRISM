@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>F A K E R</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/tabstyles.css" />
+  		<script src="../static/js/modernizr.custom.js"></script>
+		<script src="../static/js/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+
+		<!-- /container -->
+		<div class="container">
+			<header class="codrops-header" >
+				<h1><a href="index.html">Faker : Banteras Berita Palsu<a href="index.html"><span>Semak Berita anda sekarang</span></h1>
+			</header>
+			<!-- /section -->
+			<section id="section">
+				<!-- /tabs -->
+				<div class="tabs tabs-style-bar">
+					<nav>
+						<ul>
+							<li><a href="#section-bar-url" class="icon icon-home" id="urlButton"><span>URL</span></a></li>
+							<li><a href="#section-bar-text" class="icon icon-box" id="textButton"><span>TEKS</span></a></li>
+						</ul>
+                    </nav>
+					<!-- /content -->
+					<div class="content-wrap">
+						<section id="section-bar-url">
+							<div>
+								<textarea class="form-control" id="textarea-url" type="text" name="text" placeholder="Url atau Pautan..." required="" style="height:200px; width:700px; text-align:center; margin:0 auto;"></textarea>
+							</div>
+							<div class="button" style="padding-top:0.5cm; width: 500px; margin: 0 auto;">
+                                <nav>
+                                    <ul>
+                                        <li><a class="icon icon-home" id="button-url"><span>Semak Berita</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+						</section>
+
+						<section id="section-bar-text">
+							<div>
+								<textarea class="form-control" id="textarea-text" type="text" name="text" placeholder="Teks Berita..." required="" style="height:200px; width:700px; text-align:center; margin:0 auto;"></textarea>
+							</div>
+                            <div class="button" style="padding-top:0.5cm; width: 500px; margin: 0 auto;">
+                                <nav>
+                                    <ul>
+                                        <li><a class="icon icon-home" id="button-text"><span>Semak Berita</span></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+						</section>
+					</div>
+					<!-- /content -->
+				</div>
+				<!-- /tabs -->
+			</section>
+			<!-- /section -->
+		</div>
+		<!-- /container -->
+
+
+		<!-- /display result -->
+		<div class="codrops-header" id="result" style="padding-top:5cm;">
+			<h1><a class="label"></a></h1>
+			<h1><span class="probability"></span></h1>
+		</div>
+		<!-- /display result -->
+
+
+		<div class="loading" style="padding-top:3cm;">
+			<div class="cssload-thecube">
+          	<div class="cssload-cube cssload-c1"></div>
+          	<div class="cssload-cube cssload-c2"></div>
+          	<div class="cssload-cube cssload-c4"></div>
+          	<div class="cssload-cube cssload-c3"></div>
+		</div>
+
+		<!-- /script for show and hide element -->
+		<script>
+
+			$(function() {
+				$("#section").hide();
+				$("#result").hide();
+    			$(".loading").fadeOut(3000, function()
+    			{
+        			$("#section").fadeIn(2000);
+    			});
+			});
+
+
+			$("#urlButton").click(function()
+			{
+				$("#textButton").show();
+				$("#textarea-url").show();
+				$("#button-url").show();
+				$("#textarea-text").hide();
+				$("#button-text").hide();
+				$("#result").hide();
+				$(".loading").hide();
+			});
+
+			$("#textButton").click(function()
+			{
+				$("#urlButton").show();
+				$("#textarea-text").show();
+				$("#button-text").show();
+				$("#textarea-url").hide();
+				$("#button-url").hide();
+				$("#result").hide();
+				$(".loading").hide();
+			});
+
+            $("#button-url").click(function()
+            {
+				$(".loading").fadeOut(3000, function()
+				{
+					$("#result").fadeIn(2000);
+				});
+
+                $(".codrops-header").hide();
+                $(".container").hide();
+                $(".loading").hide();
+            });
+
+			$("#button-text").click(function()
+            {
+				$(".loading").fadeOut(3000, function()
+				{
+					$("#result").fadeIn(2000);
+				});
+
+                $(".codrops-header").hide();
+                $(".container").hide();
+                $(".loading").hide();
+                $("#result").show();
+            });
+		</script>
+		<!-- / end script for show and hide element -->
+
+		<!-- / script for process url and text -->
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$("#button-url").click(function()
+				{
+					var urlCheck = $("#textarea-url").val();
+
+					if(urlCheck.trim == "")
+					{
+						alert ("Tiada Input, Sila cuba lagi") ;
+					}
+					else
+					{
+						var urlEncode = btoa(urlCheck);
+
+						$.ajax
+						({
+							url: "/api/verificationfacade/url/" + urlEncode,
+							type: "GET",
+
+							success:function(data)
+							{
+								if(data['error'])
+								{
+									alert (data['error'])
+								}
+								else
+								{
+									$(function()
+									{
+    									$(".loading").fadeOut(5000, function()
+    									{
+        									$("#result").fadeIn(3000);
+    									});
+									});
+
+
+									$(".tabs tabs-style-bar").hide();
+									$(".content-wrap").hide();
+									$("#urlButton").hide();
+									$("#textButton").hide();
+
+									$(".label").text(data['result']['label'])
+
+									if(data['result']['label']==='Real')
+										$(".probability").text('Peratus Kebenaran Berita Anda ialah : ' + data['result']['probability'])
+									else
+										$(".probability").text('Peratus Kebenaran Berita Anda ialah : ' + data['result']['probability'])
+								}
+							}
+
+						});
+					}
+
+				});
+
+
+				$("#button-text").click(function()
+				{
+					var textCheck = $("#textarea-text").val();
+
+					if(textCheck.trim == "")
+					{
+						alert ("Tiada Input, Sila cuba lagi") ;
+					}
+					else
+					{
+						var textNews = textCheck.replace('?','');
+
+						$.ajax
+						({
+							url: "/api/verificationfacade/news/" + textNews,
+							type: "GET",
+
+							success:function(data)
+							{
+								$(".codrops-header").show();
+								$(".tabs tabs-style-bar").hide();
+								$(".content-wrap").hide();
+								$("#urlButton").hide();
+								$("#textButton").hide();
+								$("#result").show();
+
+								$(".label").text(data['result']['label'])
+
+								if(data['result']['label']==='Real')
+									$(".probability").text('Kebarangkalian benar berita anda adalah : ' + data['result']['probability'])
+								else
+									$(".probability").text('Kebarangkalian benar berita anda adalah : ' + data['result']['probability'])
+							}
+
+						});
+					}
+				});
+			});
+
+
+
+
+		</script>
+		<!-- /end script for process url -->
+
+		<script src="../static/js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+
+		</script>
+	</body>
+</html>
