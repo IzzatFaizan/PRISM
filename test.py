@@ -46,14 +46,6 @@ def execute_detection_news_stance(news):
     for i in range(len(related_object)):
         # print(related_object[i]['snippet'])
 
-        tfidf_vect_ngram_char = TfidfVectorizer(analyzer='char', token_pattern=r'\w{1,}', ngram_range=(2, 3),
-                                                max_features=5000)
-        tfidf_matrix = tfidf_vect_ngram_char.fit_transform([news], [related_object[i]['snippet']])
-
-        sim = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix).flatten()
-
-        print(sim)
-
         label, prob = detect_news.detect_fake_news_stance([news], [related_object[i]['snippet']])
         fa = fa + prob[0]
         re = re + prob[1]
@@ -104,34 +96,3 @@ accuracy_prob = correct_count_prob / len(news)
 
 print('Label Accuracy : ', accuracy_label)
 print('Probability Accuracy : ', accuracy_prob)
-
-
-def cos_sim(news):
-    search_object = Search()
-    related_object = search_object.search_input(keyword=news)
-
-    for i in range(len(related_object)):
-        # print(related_object[i]['snippet'])
-
-        tfidf_vect_ngram_char = TfidfVectorizer(analyzer='char', token_pattern=r'\w{1,}', ngram_range=(2, 3),
-                                                max_features=5000)
-        tfidf_matrix = tfidf_vect_ngram_char.fit_transform([news], [related_object[i]['snippet']])
-        print(tfidf_matrix.shape(4, 11))
-
-        similarity = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix).flatten()
-
-        print(similarity)
-
-    return tfidf_matrix, sim
-
-
-'''
-# the counts we computed above
-sentence_m = np.array([1, 1, 1, 1, 0, 0, 0, 0, 0])
-sentence_h = np.array([0, 0, 1, 1, 1, 1, 0, 0, 0])
-sentence_w = np.array([0, 0, 0, 1, 0, 0, 1, 1, 1])
-
-# We should expect sentence_m and sentence_h to be more similar
-print(cos_sim(sentence_m, sentence_h))  # 0.5
-print(cos_sim(sentence_m, sentence_w))  # 0.25
-'''
