@@ -45,12 +45,13 @@ def execute_detection_news_stance(news):
     results = []
     fa, re = 0, 0
     for i in range(len(related_object)):
-        print(related_object[i]['title'])
-        label, prob = detect_news.detect_fake_news_stance([news], [related_object[i]['title']])
+        print(related_object[i]['snippet'])
+        label, prob = detect_news.detect_fake_news_stance([news], [related_object[i]['snippet']])
         fa = fa + prob[0]
         re = re + prob[1]
         print(fa, re)
-        results.append({i : {'label': label, 'probability': prob[0]}})
+
+        results.append({i: {'label': label, 'probability': prob[0]}})
 
     return jsonify({'result': results})
 
