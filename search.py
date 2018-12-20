@@ -1,3 +1,5 @@
+import base64
+from extractor import Extractor
 from googleapiclient.discovery import build
 from interface import implements, Interface
 
@@ -24,7 +26,6 @@ class Search(implements(ISearch)):
         return res['items']
 
 
-'''''
 # import
 search_object = Search()
 related_object = search_object.search_input(keyword='dr mahathir')
@@ -39,7 +40,6 @@ for data in related_object:
     extracted_content = extract_link.extract_news(encode_link)
 
     print(extracted_content)
-'''
 
 # API_Key Fake News Detection = AIzaSyBfCFTuj3KKqSRaRllZZWuwKi3iecW8rQg
 # API_Key Test = AIzaSyBbSbWfFcHB-T4UuhddNKx_as4xseKVFME
@@ -49,4 +49,3 @@ for data in related_object:
 
 
 # Search Engine ID = 011556233041669001480:f5q80m15zyy
-
