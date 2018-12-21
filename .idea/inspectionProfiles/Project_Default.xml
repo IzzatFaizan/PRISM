@@ -30,6 +30,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="pandas.join" />
+          <option value="list.lower" />
         </list>
       </option>
     </inspection_tool>

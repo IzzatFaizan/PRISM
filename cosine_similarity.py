@@ -42,9 +42,9 @@ def cosine_sim2(u, v):
 
 raw1 = "najib diikat jamin"
 
-raw2 = "najib mati dibunuh"
+raw2 = "Dr Mahathir perdana menteri"
 
-tfidf = pickle.load(open('vocab/vocab_char.pickle', 'rb'))
+tfidf = pickle.load(open('vocab/vocab_word.pickle', 'rb'))
 
 response1 = tfidf.transform([raw1])
 response2 = tfidf.transform([raw2])

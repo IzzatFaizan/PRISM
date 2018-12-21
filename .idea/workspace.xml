@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml___jb_tmp___" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/tabstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/tabstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/verification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/trash/test_result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosine_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosine_similarity.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +108,7 @@
         <counts>
           <entry key="css" value="32" />
           <entry key="html" value="772" />
-          <entry key="py" value="534" />
+          <entry key="py" value="761" />
           <entry key="txt" value="54" />
         </counts>
       </usages-collector>
@@ -115,14 +117,14 @@
           <entry key="CSS" value="32" />
           <entry key="HTML" value="772" />
           <entry key="PLAIN_TEXT" value="54" />
-          <entry key="Python" value="534" />
+          <entry key="Python" value="761" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="html" value="3" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -131,7 +133,7 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -171,25 +173,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosine_similarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="255">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosine_similarity.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="150">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
+                <marker date="1545405333919" expanded="true" signature="445:446" ph="..." />
+                <marker date="1545405333919" expanded="true" signature="648:649" ph="..." />
               </folding>
             </state>
           </provider>
@@ -205,6 +209,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>content</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -212,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../NewsChecker/Model Development/visualization.py" />
         <option value="$PROJECT_DIR$/../NewsChecker/Model Development/detection.py" />
         <option value="$USER_HOME$/Downloads/Fake News Code Example/fake-news-detection-master/fake-news-detection-master/pipeline/model.py" />
         <option value="$USER_HOME$/Downloads/Fake News Code Example/Detecting_Fake_News-master/Detecting_Fake_News-master/Modeling_and_Grid_Search/Combing the datasets and Modeling.ipynb" />
@@ -259,10 +267,11 @@
         <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/extractor.py" />
         <option value="$PROJECT_DIR$/test_result.txt" />
-        <option value="$PROJECT_DIR$/cosine_similarity.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/css/tabstyles.css" />
         <option value="$PROJECT_DIR$/verification.py" />
+        <option value="$PROJECT_DIR$/cosine_similarity.py" />
+        <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
       </list>
     </option>
   </component>
@@ -303,8 +312,18 @@
             </path>
             <path>
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Content-Based Model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,16 +338,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\FlaskProject" />
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\bin" />
       <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\model" />
       <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\vocab" />
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\FlaskProject" />
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Content-Based Model\Train Result" />
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Content-Based Model\Dustbin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\FlaskProject" />
+      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.SVM_LinearSVC (1)">
     <configuration name="Comparing_Vectorizer" type="PythonConfigurationType" factoryName="Python">
       <module name="NewsChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,6 +376,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Tf-Idf Comparison\comparing_svm_char.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SVM_LinearSVC (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewsChecker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -667,9 +707,11 @@
       <item itemvalue="Python.verification" />
       <item itemvalue="Python.search_api" />
       <item itemvalue="Python.cosine_similarity" />
+      <item itemvalue="Python.SVM_LinearSVC (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SVM_LinearSVC (1)" />
         <item itemvalue="Python.cosine_similarity" />
         <item itemvalue="Python.stance_detection" />
         <item itemvalue="Python.verification" />
@@ -703,12 +745,12 @@
     <frame x="24" y="0" width="1335" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15265998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15265998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49730146" visible="true" weight="0.415" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730146" weight="0.415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -737,7 +779,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/detectionAPI.py" />
     <entry file="file://$PROJECT_DIR$/model/content_based_model.sav">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -847,7 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_result.txt">
+    <entry file="file://$PROJECT_DIR$/trash/test_result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -880,16 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cosine_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
@@ -902,10 +933,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="31">
+          <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosine_similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <marker date="1545405333919" expanded="true" signature="445:446" ph="..." />
+            <marker date="1545405333919" expanded="true" signature="648:649" ph="..." />
           </folding>
         </state>
       </provider>
