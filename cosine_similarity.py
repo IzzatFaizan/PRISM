@@ -42,17 +42,22 @@ def cosine_sim2(u, v):
 
 raw1 = "najib diikat jamin"
 
-raw2 = "najib tiada sebarang harta lagi"
+raw2 = "najib mati dibunuh"
 
-tfidf = pickle.load(open('vocab/vocab_word.pickle', 'rb'))
+tfidf = pickle.load(open('vocab/vocab_char.pickle', 'rb'))
 
 response1 = tfidf.transform([raw1])
 response2 = tfidf.transform([raw2])
 
+
+sim_1 = str(cosine_sim(raw1, raw2, tfidf))
+sim_2 = str(cosine_sim2(response1.toarray()[0], response2.toarray()[0]))
+
+
 # first function, pass the raw text and get vectors inside the function
-print("similarity between above two items:" + str(cosine_sim(raw1, raw2, tfidf)))
+print("similarity between above two items:" + sim_1)
 # second function, pass the vectors calculated above
-print("similarity between above two items:" + str(cosine_sim2(response1.toarray()[0], response2.toarray()[0])))
+print("similarity between above two items:" + sim_2)
 
 
 '''
