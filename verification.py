@@ -29,8 +29,8 @@ class Verification(implements(IVerification)):
         news_tfidf = load_vocab.transform(news)
         source_tfidf = load_vocab.transform(source)
 
-        # print(news_tfidf)
-        # print(source_tfidf)
+        print(news_tfidf)
+        print(source_tfidf)
         concate_features = np.concatenate((news_tfidf.toarray(), source_tfidf.toarray()), axis=1)
 
         prediction = load_model.predict(concate_features)

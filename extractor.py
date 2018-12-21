@@ -23,7 +23,7 @@ class Extractor(implements(IExtractor)):
                 return extracted_news
 
             except:
-                return 'error extraction'
+                return 'error extraction of the input URL'
 
         else:
             return 'invalid URL'

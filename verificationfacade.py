@@ -34,7 +34,7 @@ def execute_detection_news(news):
     return jsonify({'result': {'label': label, 'probability': prob}})
 
 
-@app.route('/api/verificationfacade/stance/<string:news>', methods=['GET'])
+@app.route('/api/verificationfacade/news/stance/<string:news>', methods=['GET'])
 def execute_detection_news_stance(news):
     detect_news = Verification()
 

@@ -96,3 +96,5 @@ accuracy_prob = correct_count_prob / len(news)
 
 print('Label Accuracy : ', accuracy_label)
 print('Probability Accuracy : ', accuracy_prob)
+
+# refer cosine similarity
