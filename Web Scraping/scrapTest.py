@@ -22,7 +22,7 @@ def get_link():
     cr = "".join(content_real)
     c = "".join(category_news)
 
-    # Database Connection
+    # Dataset Storage Connection
     conn = mysql.connector.connect(host="127.0.0.1", user="root", passwd="", database="news_dataset", charset="utf8")
     query = "INSERT INTO datacollection (url, fakenews, realnews, category) VALUES ""(\"%s\", \"%s\", \"%s\", \"%s\")"
 

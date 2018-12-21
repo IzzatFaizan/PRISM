@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FlaskProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlaskProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +108,7 @@
         <counts>
           <entry key="css" value="32" />
           <entry key="html" value="772" />
-          <entry key="py" value="761" />
+          <entry key="py" value="793" />
           <entry key="txt" value="54" />
         </counts>
       </usages-collector>
@@ -114,7 +117,7 @@
           <entry key="CSS" value="32" />
           <entry key="HTML" value="772" />
           <entry key="PLAIN_TEXT" value="54" />
-          <entry key="Python" value="761" />
+          <entry key="Python" value="793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -122,7 +125,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="4" />
           <entry key="md" value="1" />
-          <entry key="py" value="18" />
+          <entry key="py" value="19" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -132,14 +135,14 @@
           <entry key="HTML" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="93">
@@ -152,31 +155,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="53" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -255,8 +237,8 @@
         <option value="$PROJECT_DIR$/verification.py" />
         <option value="$PROJECT_DIR$/cosine_similarity.py" />
         <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
-        <option value="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" />
         <option value="$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" />
+        <option value="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" />
       </list>
     </option>
   </component>
@@ -296,22 +278,6 @@
             <path>
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Stance-Based Model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -800,7 +766,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="0" width="1335" height="734" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20894371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1039,27 +1004,20 @@
     <entry file="file://$PROJECT_DIR$/Web Scraping/scraper.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
+    <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="76">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -1068,10 +1026,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
