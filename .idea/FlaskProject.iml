@@ -4,8 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="NewsChecker" />
-    <orderEntry type="module" module-name="NewsChecker" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
