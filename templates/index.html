@@ -15,12 +15,30 @@
 	</head>
 	<body>
 
+
 		<!-- /container -->
 		<div class="container">
 			<header class="codrops-header" >
                 <h1><a href=" http://127.0.0.1:5000/">Faker : Banteras Berita Palsu</a><a href=" http://127.0.0.1:5000/"></a><span>Semak Berita anda sekarang</span></h1>
 			</header>
+
 			<!-- /section -->
+            <section id="intro">
+				<div class="tabs tabs-style-linebox" style="padding-top:3.2cm;">
+					<nav>
+						<ul>
+                            <h1><span>Sila Pilih Jenis Berita Anda</span></h1>
+							<li><a href="#section-linebox-5" id="shortButton"><span>BERITA PENDEK</span></a></li>
+							<li><a href="#section-linebox-4" id="longButton"><span>BERITA PANJANG</span></a></li>
+						</ul>
+					</nav>
+					<div class="content-wrap">
+						<section id="section-linebox-4"><p></p></section>
+						<section id="section-linebox-5"><p></p></section>
+					</div><!-- /content -->
+				</div><!-- /tabs -->
+			</section>
+
 			<section id="section">
 				<!-- /tabs -->
 				<div class="tabs tabs-style-bar">
@@ -61,6 +79,8 @@
 					<!-- /content -->
 				</div>
 				<!-- /tabs -->
+
+
 			</section>
 			<!-- /section -->
 		</div>
@@ -75,7 +95,7 @@
 		<!-- /display result -->
 
 
-		<div class="loading" style="padding-top:3cm;">
+		<div class="loading" style="padding-top:5cm;">
 			<div class="cssload-thecube">
           	    <div class="cssload-cube cssload-c1"></div>
           	    <div class="cssload-cube cssload-c2"></div>
@@ -88,10 +108,40 @@
 		<script>
 
 			$(function() {
+			    $(".codrops-header").hide();
+			    $("#intro").hide();
 				$("#section").hide();
 				$("#result").hide();
     			$(".loading").fadeOut(3000, function()
     			{
+        			$("#intro").fadeIn(2000);
+    			});
+			});
+
+			$("#shortButton").click(function()
+			{
+			    $("#intro").hide();
+                $("#section").hide();
+				$("#result").hide();
+				$(".codrops-header").hide();
+				$(".loading").show();
+    			$(".loading").fadeOut(5000, function()
+    			{
+    			    $(".codrops-header").fadeIn(2000);
+        			$("#section").fadeIn(2000);
+    			});
+			});
+
+			$("#longButton").click(function()
+			{
+			    $("#intro").hide();
+                $("#section").hide();
+				$("#result").hide();
+				$(".codrops-header").hide();
+				$(".loading").show();
+    			$(".loading").fadeOut(5000, function()
+    			{
+    			    $(".codrops-header").fadeIn(2000);
         			$("#section").fadeIn(2000);
     			});
 			});
@@ -218,7 +268,7 @@
 
 						$.ajax
 						({
-							url: "/api/verificationfacade/news" + textNews,
+							url: "/api/verificationfacade/news/" + textNews,
 							type: "GET",
 
 							success:function(data)
