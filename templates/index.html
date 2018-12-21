@@ -128,7 +128,7 @@
 
                 $(".codrops-header").hide();
                 $(".container").hide();
-                $(".loading").hide();
+                $("#result").show();
             });
 
 			$("#button-text").click(function()
@@ -140,7 +140,6 @@
 
                 $(".codrops-header").hide();
                 $(".container").hide();
-                $(".loading").hide();
                 $("#result").show();
             });
 		</script>
@@ -152,6 +151,11 @@
 			{
 				$("#button-url").click(function()
 				{
+                    $(".loading").fadeOut(3000, function()
+                    {
+                        $("#result").fadeIn(2000);
+                    });
+
 					var urlCheck = $("#textarea-url").val();
 
 					if(urlCheck.trim == "")
@@ -175,10 +179,12 @@
 								}
 								else
 								{
-									$(".loading").fadeOut(5000, function()
-    									{
-        									$("#result").fadeIn(3000);
-    									});
+                                    $(function() {
+                                        $(".loading").fadeOut(3000, function()
+                                        {
+                                            $("#result").fadeIn(2000);
+                                        });
+                                    });
 
 									$(".tabs tabs-style-bar").hide();
 									$(".content-wrap").hide();
@@ -188,9 +194,9 @@
 									$(".label").text(data['result']['label'])
 
 									if(data['result']['label']==='Real')
-										$(".probability").text('Peratus Kebarangkalian Berita Anda adalah : ' + data['result']['probability'])
+										$(".probability").text('Kebarangkalian berita anda adalah '+ data['result']['label'] + ' ialah : ' + data['result']['probability'])
 									else
-										$(".probability").text('Peratus Kebarangkalian Berita Anda adalah : ' + data['result']['probability'])
+										$(".probability").text('Kebarangkalian berita anda adalah ' + data['result']['label'] + ' ialah : '+ data['result']['probability'])
 								}
 							}
 
@@ -202,6 +208,7 @@
 
 				$("#button-text").click(function()
 				{
+
 					var textCheck = $("#textarea-text").val();
 
 					if(textCheck.trim == "")
@@ -219,12 +226,17 @@
 
 							success:function(data)
 							{
-								$(".codrops-header").show();
-								$(".tabs tabs-style-bar").hide();
-								$(".content-wrap").hide();
-								$("#urlButton").hide();
-								$("#textButton").hide();
-								$("#result").show();
+                                $(function() {
+                                    $(".loading").fadeOut(3000, function()
+                                    {
+                                        $("#result").fadeIn(2000);
+                                    });
+                                });
+
+                                $(".tabs tabs-style-bar").hide();
+                                $(".content-wrap").hide();
+                                $("#urlButton").hide();
+                                $("#textButton").hide();
 
 								$(".label").text(data['result']['label'])
 
