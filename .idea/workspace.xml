@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/trash/test_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosine_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/cosine_similarity.py" afterDir="false" />
-    </list>
+    <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -713,8 +707,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="0" width="1335" height="734" extended-state="1" />
-    <editor active="true" />
+    <frame x="24" y="0" width="1335" height="734" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15265998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
