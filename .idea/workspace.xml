@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test1_SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_Kfold.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/linear_svc_no_kernel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/svc_linear_kernel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/svc_poly_kernel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/svc_rbf_kernel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/SVM_LinearSVC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/SVM_LinearSVC_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/SVM_LinearSVC_V_1.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_char.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_ngram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Train Result/detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/Train Result/svm_linearSVC.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Development/Content-Based Model/svm_linearSVC.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +122,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="4" />
           <entry key="md" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="18" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -147,7 +132,7 @@
           <entry key="HTML" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -157,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+            <state relative-caret-position="93">
+              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -166,11 +151,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="53" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,8 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../NewsChecker/Model Development/detection.py" />
-        <option value="$USER_HOME$/Downloads/Fake News Code Example/fake-news-detection-master/fake-news-detection-master/pipeline/model.py" />
         <option value="$USER_HOME$/Downloads/Fake News Code Example/Detecting_Fake_News-master/Detecting_Fake_News-master/Modeling_and_Grid_Search/Combing the datasets and Modeling.ipynb" />
         <option value="$USER_HOME$/Downloads/Fake News Code Example/FakeBuster-master/FakeBuster-master/svm.py" />
         <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Model Selection/SVM_LinearSVC_V_1.0.py" />
@@ -248,6 +255,8 @@
         <option value="$PROJECT_DIR$/verification.py" />
         <option value="$PROJECT_DIR$/cosine_similarity.py" />
         <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
+        <option value="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" />
+        <option value="$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" />
       </list>
     </option>
   </component>
@@ -273,7 +282,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -289,29 +300,18 @@
             <path>
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
               <item name="Model Development" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
               <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Content-Based Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Content-Based Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Dustbin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
+              <item name="Stance-Based Model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,6 +334,8 @@
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Content-Based Model\Train Result" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject" />
+      <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\Web Scraping" />
       <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\Model Development" />
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\FlaskProject" />
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model" />
@@ -351,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test_SVM">
+  <component name="RunManager" selected="Python.search_api">
     <configuration name="Comparing_Vectorizer" type="PythonConfigurationType" factoryName="Python">
       <module name="NewsChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,27 +409,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SVM_LinearSVC" type="PythonConfigurationType" factoryName="Python">
-      <module name="NewsChecker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NewsChecker/Model Development/Model Selection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewsChecker/Model Development/Model Selection/SVM_LinearSVC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -604,6 +585,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="search_api" type="PythonConfigurationType" factoryName="Python">
+      <module name="FlaskProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model Development/Stance-Based Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stance_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -748,7 +750,6 @@
     </configuration>
     <list>
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.SVM_LinearSVC" />
       <item itemvalue="Python.Comparing_Vectorizer" />
       <item itemvalue="Python.search" />
       <item itemvalue="Python.detection" />
@@ -763,6 +764,7 @@
       <item itemvalue="Python.Test1_SVM" />
       <item itemvalue="Python.Test_Kfold" />
       <item itemvalue="Python.Test_SVM" />
+      <item itemvalue="Python.search_api" />
     </list>
     <recent_temporary>
       <list>
@@ -800,12 +802,12 @@
     <frame x="24" y="0" width="1335" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24903624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20894371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730146" visible="true" weight="0.415" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49730146" weight="0.415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -834,28 +836,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/loading.scss" />
-    <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/detection.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/svm/classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Fake_News_Detection-master/Fake_News_Detection-master/classifier.py" />
-    <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/inputprocessing.py" />
-    <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/Dustbin/Model.py" />
     <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/SVM Comparison.py" />
     <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/Dustbin/Test_SVM.py" />
     <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/Dustbin/Test_Kfold.py" />
@@ -894,7 +874,13 @@
     <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
     <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Stance-Based Model/stance_detection.py" />
     <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/detection.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1009,20 +995,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test1_SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_Kfold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web Scraping/Web Scraping/scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web Scraping/scraper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+        <state relative-caret-position="93">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py">
+    <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

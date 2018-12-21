@@ -1,5 +1,6 @@
 import pickle
 import numpy as np
+from flask import jsonify
 from search_api import Search
 
 news = ['najib diikat jamin', 'kfc tidak halal',
