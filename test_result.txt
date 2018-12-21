@@ -1,4 +1,5 @@
-''''
+Stance Detection using Google Search Engine API
+
 4 4.405665736679706 6 5.5943342633202935 = 'najib diikat jamin'
 9 6.794064015074888 1 3.2059359849251123 = 'kfc tidak halal'
 10 7.192976573664705 0 2.8070234263352947 = 'vietnam menang dalam piala aff suzuki 2018'
@@ -24,4 +25,4 @@
 9 8.137857082076906 1 1.8621429179230935 = 'pakatan harapan tewas pru 14'
 10 7.704102139490044 0 2.2958978605099567 = 'bn menang pru 14'
 
-'''''
+

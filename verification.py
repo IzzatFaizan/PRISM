@@ -13,7 +13,7 @@ class IVerification(Interface):
 
 class Verification(implements(IVerification)):
     def detect_fake_news(self, news):
-        load_model = pickle.load(open('model/model_content.sav', 'rb'))
+        load_model = pickle.load(open('model/content_based_model.sav', 'rb'))
         prediction = load_model.predict([news])
         prob = load_model.predict_proba([news])
 
@@ -24,7 +24,7 @@ class Verification(implements(IVerification)):
 
     def detect_fake_news_stance(self, news, source):
         load_vocab = pickle.load(open('vocab/vocab_char.pickle', 'rb'))
-        load_model = pickle.load(open('model/model_stance.sav', 'rb'))
+        load_model = pickle.load(open('model/stance_based_model.sav', 'rb'))
 
         news_tfidf = load_vocab.transform(news)
         source_tfidf = load_vocab.transform(source)
