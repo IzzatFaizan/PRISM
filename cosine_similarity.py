@@ -1,6 +1,9 @@
+import pickle
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from search import Search
+import numpy as np
 
 news = ['najib diikat jamin',
         'kfc tidak halal',
@@ -28,6 +31,31 @@ news = ['najib diikat jamin',
         'bn menang pru 14']
 
 
+def cosine_sim(text1, text2, vectorizer):
+    tfidf_test = vectorizer.fit_transform([text1, text2])
+    return (tfidf_test * tfidf_test.T).A[0, 1]
+
+
+def cosine_sim2(u, v):
+    return np.dot(u, v) / (np.sqrt(np.dot(u, u)) * np.sqrt(np.dot(v, v)))
+
+
+raw1 = "najib diikat jamin"
+
+raw2 = "najib tiada sebarang harta lagi"
+
+tfidf = pickle.load(open('vocab/vocab_word.pickle', 'rb'))
+
+response1 = tfidf.transform([raw1])
+response2 = tfidf.transform([raw2])
+
+# first function, pass the raw text and get vectors inside the function
+print("similarity between above two items:" + str(cosine_sim(raw1, raw2, tfidf)))
+# second function, pass the vectors calculated above
+print("similarity between above two items:" + str(cosine_sim2(response1.toarray()[0], response2.toarray()[0])))
+
+
+'''
 def cos_sim(news):
     search_object = Search()
     related_object = search_object.search_input(keyword=news)
@@ -42,6 +70,7 @@ def cos_sim(news):
     print(similarity)
 
     pass
+'''''
 
 
 '''
