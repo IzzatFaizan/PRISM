@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/verification.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,14 +102,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="159" />
-          <entry key="py" value="421" />
+          <entry key="html" value="177" />
+          <entry key="py" value="425" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="159" />
-          <entry key="Python" value="421" />
+          <entry key="HTML" value="177" />
+          <entry key="Python" value="425" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -130,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/verification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="-4">
+              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -142,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
+            <state relative-caret-position="182">
+              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -166,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -190,8 +191,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/verificationfacade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+            <state relative-caret-position="91">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -202,7 +203,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="187">
               <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
@@ -272,9 +273,9 @@
         <option value="$PROJECT_DIR$/test_result.txt" />
         <option value="$PROJECT_DIR$/verificationfacade.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/verification.py" />
         <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/cosine_similarity.py" />
+        <option value="$PROJECT_DIR$/verification.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -312,11 +313,6 @@
             <path>
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -720,7 +716,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49730146" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49730146" visible="true" weight="0.34333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -853,20 +849,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.py">
+    <entry file="file://$PROJECT_DIR$/verification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state relative-caret-position="-4">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -883,27 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verificationfacade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        <state relative-caret-position="91">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -912,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
+        <state relative-caret-position="182">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

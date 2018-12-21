@@ -23,7 +23,7 @@ class Verification(implements(IVerification)):
             return 'Berita Benar', prob[0][1]
 
     def detect_fake_news_stance(self, news, source):
-        load_vocab = pickle.load(open('vocab/vocab_word.pickle', 'rb'))
+        load_vocab = pickle.load(open('vocab/vocab_char.pickle', 'rb'))
         load_model = pickle.load(open('model/model_stance.sav', 'rb'))
 
         news_tfidf = load_vocab.transform(news)

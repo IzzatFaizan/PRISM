@@ -147,14 +147,11 @@
 
 		<!-- / script for process url and text -->
 		<script type="text/javascript">
+
 			$(document).ready(function()
 			{
 				$("#button-url").click(function()
 				{
-                    $(".loading").fadeOut(3000, function()
-                    {
-                        $("#result").fadeIn(2000);
-                    });
 
 					var urlCheck = $("#textarea-url").val();
 
@@ -221,17 +218,11 @@
 
 						$.ajax
 						({
-							url: "/api/verificationfacade/news/stance" + textNews,
+							url: "/api/verificationfacade/news" + textNews,
 							type: "GET",
 
 							success:function(data)
 							{
-                                $(function() {
-                                    $(".loading").fadeOut(3000, function()
-                                    {
-                                        $("#result").fadeIn(2000);
-                                    });
-                                });
 
                                 $(".tabs tabs-style-bar").hide();
                                 $(".content-wrap").hide();
