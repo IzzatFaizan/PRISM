@@ -49,16 +49,13 @@ tfidf = pickle.load(open('vocab/vocab_char.pickle', 'rb'))
 response1 = tfidf.transform([raw1])
 response2 = tfidf.transform([raw2])
 
-
 sim_1 = str(cosine_sim(raw1, raw2, tfidf))
 sim_2 = str(cosine_sim2(response1.toarray()[0], response2.toarray()[0]))
-
 
 # first function, pass the raw text and get vectors inside the function
 print("similarity between above two items:" + sim_1)
 # second function, pass the vectors calculated above
 print("similarity between above two items:" + sim_2)
-
 
 '''
 def cos_sim(news):
@@ -76,7 +73,6 @@ def cos_sim(news):
 
     pass
 '''''
-
 
 '''
 # the counts we computed above
