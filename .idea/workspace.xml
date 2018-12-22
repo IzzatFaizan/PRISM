@@ -3,34 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test1_SVM.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_Kfold.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_SVM.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/linear_svc_no_kernel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/svc_linear_kernel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/svc_poly_kernel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Kernal Comparison/svc_rbf_kernel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/SVM_LinearSVC.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/SVM_LinearSVC_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/SVM_LinearSVC_V_1.0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_char.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_ngram.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_word.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Train Result/detection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/Train Result/svm_linearSVC.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Content-Based Model/svm_linearSVC.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/stance_char.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/stance_detection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/stance_model.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/vocab.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/vocab2.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/vocab_ngram.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Development/Stance-Based Model/vocab_word.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraping/scrapTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web Scraping/scraper.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,15 +92,16 @@
     <session id="1148636677">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -206,8 +179,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+            <state relative-caret-position="867">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -349,12 +322,6 @@
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
               <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -931,52 +898,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test1_SVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_Kfold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_SVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Model.py" />
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test1_SVM.py" />
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_Kfold.py" />
+    <entry file="file://$PROJECT_DIR$/Model Development/Content-Based Model/Dustbin/Test_SVM.py" />
     <entry file="file://$PROJECT_DIR$/Web Scraping/Web Scraping/scraper.py" />
-    <entry file="file://$PROJECT_DIR$/Web Scraping/scraper.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Web Scraping/scraper.py" />
+    <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/detection.py" />
+    <entry file="file://$PROJECT_DIR$/Model Development/Stance-Based Model/search_api.py" />
     <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -1020,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        <state relative-caret-position="867">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
