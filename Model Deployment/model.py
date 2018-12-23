@@ -15,12 +15,12 @@ class IModel(Interface):
 
 class Model(implements(IModel)):
     def get_content_model(self):
-        load_content_model = pickle.load(open('model/content_based_model_v1.0.sav', 'rb'))
+        load_content_model = pickle.load(open('model/model_content_v1.0.sav', 'rb'))
 
         return load_content_model
 
     def get_stance_model(self):
-        load_stance_model = pickle.load(open('model/stance_based_model_v1.0.sav', 'rb'))
+        load_stance_model = pickle.load(open('model/model_stancel_v1.0.sav', 'rb'))
 
         return load_stance_model
 
