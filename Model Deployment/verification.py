@@ -1,6 +1,6 @@
-import pickle
-from interface import Interface, implements
 import numpy as np
+from model import Model
+from interface import Interface, implements
 
 
 class IVerification(Interface):
@@ -13,9 +13,11 @@ class IVerification(Interface):
 
 class Verification(implements(IVerification)):
     def detect_fake_news(self, news):
-        load_model = pickle.load(open('model/content_based_model.sav', 'rb'))
-        prediction = load_model.predict([news])
-        prob = load_model.predict_proba([news])
+        load_model = Model()
+        content_model = load_model.get_model()
+
+        prediction = content_model.predict([news])
+        prob = content_model.predict_proba([news])
 
         if prediction == 0:
             return 'Berita Palsu', prob[0][0]
@@ -23,8 +25,9 @@ class Verification(implements(IVerification)):
             return 'Berita Benar', prob[0][1]
 
     def detect_fake_news_stance(self, news, source):
-        load_vocab = pickle.load(open('vocab/vocab_char.pickle', 'rb'))
-        load_model = pickle.load(open('model/stance_based_model.sav', 'rb'))
+        load = Model()
+        load_vocab = load.get_vocab_char()
+        load_model = load.get_stance_model()
 
         news_tfidf = load_vocab.transform(news)
         source_tfidf = load_vocab.transform(source)
