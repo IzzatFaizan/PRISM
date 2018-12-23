@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/cosine_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/cosine_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/model/content_based_model.sav" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/model/content_based_model_v1.0.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/model/stance_based_model.sav" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/model/stance_based_model_v1.0.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/trash/test_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/trash/test_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/verification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/vocab/vocab_char.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/vocab/vocab_char_v1.0.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/vocab/vocab_ngram.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/vocab/vocab_ngram_v1.0.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/vocab/vocab_word.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/vocab/vocab_word_v1.0.pickle" afterDir="false" />
-    </list>
+    <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +90,7 @@
     <session id="1148636677">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -120,14 +109,14 @@
           <entry key="css" value="32" />
           <entry key="html" value="772" />
           <entry key="py" value="1173" />
-          <entry key="txt" value="94" />
+          <entry key="txt" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="32" />
           <entry key="HTML" value="772" />
-          <entry key="PLAIN_TEXT" value="94" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="Python" value="1173" />
         </counts>
       </usages-collector>
@@ -210,8 +199,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model Deployment/trash/test_result.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="2074">
+              <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -329,23 +318,6 @@
             <path>
               <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fake-News-Detection-FlaskProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fake-News-Detection-FlaskProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-              <item name="trash" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -660,7 +632,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49653044" visible="true" weight="0.295" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49653044" weight="0.295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -809,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/trash/test_result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="2074">
+          <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
         </state>
       </provider>
     </entry>
