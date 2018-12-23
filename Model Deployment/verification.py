@@ -13,8 +13,8 @@ class IVerification(Interface):
 
 class Verification(implements(IVerification)):
     def detect_fake_news(self, news):
-        load_model = Model()
-        content_model = load_model.get_model()
+        load = Model()
+        content_model = load.get_content_model()
 
         prediction = content_model.predict([news])
         prob = content_model.predict_proba([news])

@@ -44,7 +44,7 @@ raw1 = "najib diikat jamin"
 
 raw2 = "Dr Mahathir perdana menteri"
 
-tfidf = pickle.load(open('vocab/vocab_word.pickle', 'rb'))
+tfidf = pickle.load(open('vocab/vocab_word_v1.0.pickle', 'rb'))
 
 response1 = tfidf.transform([raw1])
 response2 = tfidf.transform([raw2])
