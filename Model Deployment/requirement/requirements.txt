@@ -1,0 +1,11 @@
+python-interface==1.5.0
+requests==2.18.4
+scikit-learn==0.19.1
+numpy==1.14.3
+Flask==1.0.2
+Flask-Cors==3.0.4
+gunicorn==19.9.0
+google-api-python-client
+pickleshare==0.7.4
+jsonpickle==1.0
+scipy==1.1.0
