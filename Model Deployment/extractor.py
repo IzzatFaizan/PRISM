@@ -19,7 +19,7 @@ class Extractor(implements(IExtractor)):
 
         if self.check_url(url) == 200:
             try:
-                extracted_news = requests.get('http://miclip.ddns.net/readibility/vbtext.php?base64url=' + url).text
+                extracted_news = requests.get('http://202.45.139.16/readibility/vbtext.php?base64url=' + url).text
                 return extracted_news
 
             except:

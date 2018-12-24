@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Model Deployment/trash/a_run.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/model/model_stancel_v1.0.sav" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/model/model_stance_v1.0.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model Deployment/extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/extractor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model Deployment/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/verificationfacade.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/verificationfacade.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,33 +156,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="css" value="1" />
+          <entry key="html" value="2" />
           <entry key="pickle" value="1" />
-          <entry key="py" value="30" />
+          <entry key="py" value="31" />
           <entry key="sav" value="1" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="30" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="1" />
           <entry key="dummy" value="6" />
-          <entry key="html" value="23" />
-          <entry key="py" value="494" />
+          <entry key="html" value="91" />
+          <entry key="py" value="505" />
           <entry key="txt" value="764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="23" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="91" />
           <entry key="PLAIN_TEXT" value="770" />
-          <entry key="Python" value="494" />
+          <entry key="Python" value="505" />
         </counts>
       </usages-collector>
     </session>
@@ -193,8 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model Deployment/verification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="714">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -202,34 +205,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/extractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+            <state relative-caret-position="137">
+              <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="293">
+              <caret line="268" column="70" selection-start-line="268" selection-start-column="70" selection-end-line="268" selection-end-column="70" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model Deployment/model.py">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/tabstyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -237,8 +251,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/trash/a_run.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="522" column="25" lean-forward="true" selection-start-line="522" selection-start-column="25" selection-end-line="522" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -265,9 +288,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Model Selection/comparing_svm_ngram.py" />
-        <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Model Selection/comparing_svm_char.py" />
-        <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/Kernal Comparison/svm_kernal_poly.py" />
         <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/Model.py" />
         <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/SVM Comparison.py" />
         <option value="$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/Train Result/detection.py" />
@@ -314,8 +334,11 @@
         <option value="$PROJECT_DIR$/Model Deployment/verification.py" />
         <option value="$PROJECT_DIR$/Model Deployment/test.py" />
         <option value="$PROJECT_DIR$/Model Deployment/model.py" />
-        <option value="$PROJECT_DIR$/Model Deployment/verificationfacade.py" />
+        <option value="$PROJECT_DIR$/Model Deployment/static/css/tabstyles.css" />
+        <option value="$PROJECT_DIR$/Model Deployment/extractor.py" />
         <option value="$PROJECT_DIR$/Model Deployment/templates/index.html" />
+        <option value="$PROJECT_DIR$/Model Deployment/verificationfacade.py" />
+        <option value="$PROJECT_DIR$/Model Deployment/trash/a_run.txt" />
       </list>
     </option>
   </component>
@@ -365,7 +388,16 @@
               <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRISM" type="462c0819:PsiDirectoryNode" />
               <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-              <item name="vocab" type="462c0819:PsiDirectoryNode" />
+              <item name="trash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +440,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.verificationfacade (1)">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="comparing_svm_char" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -514,27 +546,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_svc_no_kernel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NewsChecker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Kernal Comparison" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Kernal Comparison/linear_svc_no_kernel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="model" type="PythonConfigurationType" factoryName="Python">
       <module name="PRISM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -569,6 +580,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PRISM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model Deployment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model Deployment/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -770,19 +802,19 @@
       <item itemvalue="Python.cosine_similarity" />
       <item itemvalue="Python.verification" />
       <item itemvalue="Python.extractor" />
-      <item itemvalue="Python.linear_svc_no_kernel" />
       <item itemvalue="Python.comparing_svm_word" />
       <item itemvalue="Python.comparing_svm_ngram" />
       <item itemvalue="Python.comparing_svm_char" />
       <item itemvalue="Python.verificationfacade (1)" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.verificationfacade (1)" />
         <item itemvalue="Python.comparing_svm_char" />
         <item itemvalue="Python.comparing_svm_ngram" />
         <item itemvalue="Python.comparing_svm_word" />
-        <item itemvalue="Python.linear_svc_no_kernel" />
       </list>
     </recent_temporary>
   </component>
@@ -817,7 +849,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49653044" visible="true" weight="0.11147541" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49653044" visible="true" weight="0.447541" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -850,8 +882,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Stance-Based Model/detection.py" />
-    <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
     <entry file="file://$PROJECT_DIR$/../NewsChecker/Model Development/Stance-Based Model/stance_detection.py" />
     <entry file="file://$PROJECT_DIR$/search.py" />
     <entry file="file://$PROJECT_DIR$/extractor.py" />
@@ -890,13 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1016,16 +1039,6 @@
     <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/a_run.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/verification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1045,24 +1058,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
+    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/tabstyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/verification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="101" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4556">
-          <caret line="268" column="63" selection-start-line="268" selection-start-column="63" selection-end-line="268" selection-end-column="63" />
+        <state relative-caret-position="293">
+          <caret line="268" column="70" selection-start-line="268" selection-start-column="70" selection-end-line="268" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        <state relative-caret-position="137">
+          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/trash/a_run.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="522" column="25" lean-forward="true" selection-start-line="522" selection-start-column="25" selection-end-line="522" selection-end-column="25" />
         </state>
       </provider>
     </entry>
