@@ -41,7 +41,7 @@ def execute_detection_news_stance(news):
     # print(related_object)
 
     fa, re = 0, 0
-    fa_count, re_count = 0, 0
+    fa_count, re_count, probs = 0, 0, 0
 
     for i in range(len(related_object)):
         # print(related_object[i]['snippet'])

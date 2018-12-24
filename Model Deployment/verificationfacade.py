@@ -36,7 +36,6 @@ def execute_detection_news(news):
 
 @app.route('/api/verificationfacade/news/stance/<string:news>', methods=['GET'])
 def execute_detection_news_stance(news):
-
     detect_news = Verification()
 
     search_object = Search()
@@ -46,7 +45,7 @@ def execute_detection_news_stance(news):
     # results = []
     fa_count, re_count = 0, 0
     fa_prob, re_prob = 0, 0
-    probs = 0
+
     for i in range(len(related_object)):
         print(related_object[i]['snippet'])
         label, prob = detect_news.detect_fake_news_stance([news], [related_object[i]['snippet']])
@@ -54,17 +53,20 @@ def execute_detection_news_stance(news):
         if label == 'Fake':
             fa_prob += prob[0]
             fa_count += 1
-        elif label == 'Rake':
+
+        elif label == 'Real':
             re_prob += prob[1]
             re_count += 1
 
-        if fa_count > re_count:
-            probs = fa_prob/10
-            label = 'Fake'
+    if fa_count > re_count:
+        probs = fa_prob / 10
+        label = 'Fake'
+        print(probs)
 
-        elif fa_count < re_count:
-            probs = re_prob/10
-            label = 'Real'
+    elif fa_count < re_count:
+        probs = re_prob / 10
+        label = 'Real'
+        print(probs)
 
         # results.append({i: {'label': label, 'probability': probs}})
 
