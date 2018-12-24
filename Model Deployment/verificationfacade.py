@@ -36,6 +36,7 @@ def execute_detection_news(news):
 
 @app.route('/api/verificationfacade/news/stance/<string:news>', methods=['GET'])
 def execute_detection_news_stance(news):
+    global label, probs
     detect_news = Verification()
 
     search_object = Search()
@@ -69,6 +70,28 @@ def execute_detection_news_stance(news):
         print(probs)
 
         # results.append({i: {'label': label, 'probability': probs}})
+
+    '''
+    resultsss = []
+    labels = []
+    for i in range(len(news)):
+        resultsss.append(execute_detection_news_stance(news[i]))
+
+    correct_count_label = 0
+    correct_count_prob = 0
+
+    for i in range(len(news)):
+
+        if labels[i] == resultsss[i][0]:
+            correct_count_label += 1
+
+        if labels[i] == resultsss[i][1]:
+            correct_count_prob += 1
+
+        # print(labels[i])
+        print(resultsss[i][0])
+        print('\n', resultsss[i][1])
+    '''
 
     return jsonify({'result': {'label': label, 'probability': probs}})
 

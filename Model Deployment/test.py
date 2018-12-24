@@ -89,7 +89,7 @@ for i in range(len(news)):
 
     # print(labels[i])
     print(resultsss[i][0])
-    print(resultsss[i][1])
+    print('\n', resultsss[i][1])
 
 accuracy_label = correct_count_label / len(news)
 accuracy_prob = correct_count_prob / len(news)
