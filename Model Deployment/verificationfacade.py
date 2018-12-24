@@ -60,12 +60,12 @@ def execute_detection_news_stance(news):
 
     if fa_count > re_count:
         probs = fa_prob / 10
-        label = 'Fake'
+        label = 'Berita Palsu'
         print(probs)
 
     elif fa_count < re_count:
         probs = re_prob / 10
-        label = 'Real'
+        label = 'Berita Benar'
         print(probs)
 
         # results.append({i: {'label': label, 'probability': probs}})

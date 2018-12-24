@@ -20,11 +20,11 @@ class Model(implements(IModel)):
         return load_content_model
 
     def get_stance_model(self):
-        load_stance_model = pickle.load(open('model/model_stancel_v1.0.sav', 'rb'))
+        load_stance_model = pickle.load(open('model/model_stance_v1.0.sav', 'rb'))
 
         return load_stance_model
 
     def get_vocab_char(self):
-        load_vocab_char = pickle.load(open('vocab/vocab_char_v1.0.pickle', 'rb'))
+        load_vocab_char = pickle.load(open('vocab/vocab_word_v1.0.pickle', 'rb'))
 
         return load_vocab_char
