@@ -17,26 +17,10 @@
 
 		<!-- /container -->
 		<div class="container">
-			<header class="codrops-header" >
-                <h1><a href=" http://127.0.0.1:5000/" style="font">Prism : Banteras Berita Palsu</a><a href=" http://127.0.0.1:5000/"></a><span>Semak Berita anda sekarang</span></h1>
+			<header class="codrops-header" style="padding-top:1.5cm;" >
+                <h1>Prism : Banteras Berita Palsu<span>Sila Pilih Jenis Berita Anda & Semak</span></h1>
 			</header>
 			<!-- /section -->
-            <section id="intro">
-				<div class="tabs tabs-style-linebox" style="padding-top:3.2cm;">
-					<nav>
-						<ul>
-                            <h1><span>Sila Pilih Jenis Berita Anda</span></h1>
-							<li><a href="#section-linebox-5" id="shortButton"><span>BERITA PENDEK</span></a></li>
-							<li><a href="#section-linebox-4" id="longButton"><span>BERITA PANJANG</span></a></li>
-						</ul>
-					</nav>
-					<div class="content-wrap">
-						<section id="section-linebox-4"><p></p></section>
-						<section id="section-linebox-5"><p></p></section>
-					</div><!-- /content -->
-				</div><!-- /tabs -->
-			</section>
-
 			<section id="section">
 				<!-- /tabs -->
 				<div class="tabs tabs-style-bar">
@@ -50,7 +34,7 @@
 					<div class="content-wrap">
 						<section id="section-bar-url">
 							<div>
-								<textarea class="form-control" id="textarea-url" type="text" name="text" placeholder="Url atau Pautan..." required="" style="height:200px; width:700px; text-align:center; margin:0 auto; padding-top:2cm;"></textarea>
+								<textarea class="form-control" id="textarea-url" type="text" name="text" placeholder="Url atau Pautan..." required="" style="height:200px; width:700px; text-align:center; margin:0 auto;"></textarea>
 							</div>
 							<div class="button" style="padding-top:0.5cm; width: 500px; margin: 0 auto;">
                                 <nav>
@@ -87,13 +71,13 @@
 
 		<!-- /display result -->
 		<div class="codrops-header" id="result" style="padding-top:5cm;">
-			<h1><a class="label"></a></h1>
+			<h1><a href="http://127.0.0.1:5000/" class="label"></a></h1>
 			<h1><span class="probability"></span></h1>
 		</div>
 		<!-- /display result -->
 
 
-		<div class="loading" style="padding-top:5cm;">
+		<div class="loading" style="padding-top:3.5cm;">
 			<div class="cssload-thecube">
           	    <div class="cssload-cube cssload-c1"></div>
           	    <div class="cssload-cube cssload-c2"></div>
@@ -106,44 +90,14 @@
 		<script>
 
 			$(function() {
-			    $(".codrops-header").hide();
-			    $("#intro").hide();
+			    $(".codrops-header").show();
 				$("#section").hide();
 				$("#result").hide();
     			$(".loading").fadeOut(3000, function()
     			{
-        			$("#intro").fadeIn(2000);
-    			});
-			});
-
-			$("#shortButton").click(function()
-			{
-			    $("#intro").hide();
-                $("#section").hide();
-				$("#result").hide();
-				$(".codrops-header").hide();
-				$(".loading").show();
-    			$(".loading").fadeOut(5000, function()
-    			{
-    			    $(".codrops-header").fadeIn(2000);
         			$("#section").fadeIn(2000);
     			});
 			});
-
-			$("#longButton").click(function()
-			{
-			    $("#intro").hide();
-                $("#section").hide();
-				$("#result").hide();
-				$(".codrops-header").hide();
-				$(".loading").show();
-    			$(".loading").fadeOut(5000, function()
-    			{
-    			    $(".codrops-header").fadeIn(2000);
-        			$("#section").fadeIn(2000);
-    			});
-			});
-
 
 			$("#urlButton").click(function()
 			{
@@ -169,26 +123,24 @@
 
             $("#button-url").click(function()
             {
-				$(".loading").fadeOut(3000, function()
+                $(".codrops-header").hide();
+                $(".container").hide();
+                $(".loading").show()
+                $(".loading").fadeOut(9000, function()
 				{
 					$("#result").fadeIn(2000);
 				});
-
-                $(".codrops-header").hide();
-                $(".container").hide();
-                $("#result").show();
             });
 
 			$("#button-text").click(function()
             {
-				$(".loading").fadeOut(3000, function()
+                $(".codrops-header").hide();
+                $(".container").hide();
+                $(".loading").show()
+                $(".loading").fadeOut(9000, function()
 				{
 					$("#result").fadeIn(2000);
 				});
-
-                $(".codrops-header").hide();
-                $(".container").hide();
-                $("#result").show();
             });
 		</script>
 		<!-- / end script for show and hide element -->
