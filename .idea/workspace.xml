@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Model Deployment/static/fonts/Raleway-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Deployment/static/fonts/Raleway-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model Deployment/static/fonts/Raleway-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Izzat_Jaafar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Izzat_Jaafar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/static/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/static/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +142,7 @@
     <session id="1476083384">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.46" value="3" />
@@ -224,7 +216,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="2996">
               <caret line="255" column="74" selection-start-line="255" selection-start-column="74" selection-end-line="255" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -252,7 +244,7 @@
         <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-272">
-              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -347,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="24" />
     <option name="width" value="1335" />
     <option name="height" value="734" />
@@ -859,7 +851,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49653044" visible="true" weight="0.39016393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49653044" weight="0.39016393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1119,7 +1111,7 @@
     <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-272">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -1128,7 +1120,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="2996">
           <caret line="255" column="74" selection-start-line="255" selection-start-column="74" selection-end-line="255" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
