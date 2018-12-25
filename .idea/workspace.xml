@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0f3cbc9-260f-4651-a64c-506f515e4fb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Model Deployment/static/fonts/Raleway-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model Deployment/static/fonts/Raleway-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model Deployment/static/fonts/Raleway-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Izzat_Jaafar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Izzat_Jaafar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model Deployment/verificationfacade.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/verificationfacade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model Deployment/static/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/static/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model Deployment/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Model Deployment/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,43 +153,44 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.46" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.46" value="3" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
+          <entry key="css" value="9" />
           <entry key="html" value="3" />
           <entry key="pickle" value="1" />
-          <entry key="py" value="36" />
+          <entry key="py" value="42" />
           <entry key="sav" value="1" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="9" />
           <entry key="HTML" value="3" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="62" />
           <entry key="dummy" value="6" />
-          <entry key="html" value="265" />
-          <entry key="py" value="559" />
+          <entry key="html" value="530" />
+          <entry key="py" value="561" />
           <entry key="txt" value="766" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="265" />
+          <entry key="CSS" value="62" />
+          <entry key="HTML" value="530" />
           <entry key="PLAIN_TEXT" value="772" />
-          <entry key="Python" value="559" />
+          <entry key="Python" value="561" />
         </counts>
       </usages-collector>
     </session>
@@ -194,7 +200,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model Deployment/verification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="627">
               <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -215,11 +221,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+            <state relative-caret-position="191">
+              <caret line="255" column="74" selection-start-line="255" selection-start-column="74" selection-end-line="255" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -229,31 +235,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/stance_detection.py">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+            <state relative-caret-position="493">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/a_run.txt">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/normalize.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-272">
+              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="109">
+              <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -272,6 +283,7 @@
     <findStrings>
       <find>content</find>
       <find>labels</find>
+      <find>google</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -327,15 +339,15 @@
         <option value="$PROJECT_DIR$/Model Deployment/trash/a_run.txt" />
         <option value="$PROJECT_DIR$/Model Deployment/test.py" />
         <option value="$PROJECT_DIR$/Model Deployment/model.py" />
+        <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/a_run.txt" />
+        <option value="$PROJECT_DIR$/Model Deployment/verificationfacade.py" />
+        <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/stance_detection.py" />
         <option value="$PROJECT_DIR$/Model Deployment/static/css/demo.css" />
         <option value="$PROJECT_DIR$/Model Deployment/templates/index.html" />
-        <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/a_run.txt" />
-        <option value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/stance_detection.py" />
-        <option value="$PROJECT_DIR$/Model Deployment/verificationfacade.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="24" />
     <option name="width" value="1335" />
     <option name="height" value="734" />
@@ -381,29 +393,21 @@
               <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRISM" type="462c0819:PsiDirectoryNode" />
               <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="PRISM" type="462c0819:PsiDirectoryNode" />
+              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Stance-Based Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRISM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewsChecker" type="462c0819:PsiDirectoryNode" />
-              <item name="Model Development" type="462c0819:PsiDirectoryNode" />
-              <item name="Stance-Based Model" type="462c0819:PsiDirectoryNode" />
-              <item name="vocab" type="462c0819:PsiDirectoryNode" />
+              <item name="PRISM" type="462c0819:PsiDirectoryNode" />
+              <item name="Model Deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,19 +423,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\PRISM\Model Deployment\static\fonts" />
+      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Content-Based Model\Dustbin" />
+      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\Dustbin" />
+      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\vocab" />
+      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\model" />
       <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\vocab" />
       <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject" />
       <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\Web Scraping" />
       <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\Model Development" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Content-Based Model\Dustbin" />
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\Dustbin" />
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\vocab" />
-      <recent name="C:\Users\Izzat Jaafar\PycharmProjects\NewsChecker\Model Development\Stance-Based Model\model" />
-      <recent name="C:\Users\Izzat Jaafar\Documents\GitHub\Fake-News-Detection-FlaskProject\bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,6 +451,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.verificationfacade (1)">
+    <configuration name="SVM_LinearSVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewsChecker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="comparing_svm_char" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewsChecker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -460,27 +485,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_char.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="comparing_svm_ngram" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NewsChecker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Tf-Idf Comparison" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_ngram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -808,19 +812,19 @@
       <item itemvalue="Python.cosine_similarity" />
       <item itemvalue="Python.verification" />
       <item itemvalue="Python.extractor" />
-      <item itemvalue="Python.comparing_svm_ngram" />
       <item itemvalue="Python.comparing_svm_char" />
       <item itemvalue="Python.verificationfacade (1)" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.stance_detection" />
+      <item itemvalue="Python.SVM_LinearSVC" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.verificationfacade (1)" />
+        <item itemvalue="Python.SVM_LinearSVC" />
         <item itemvalue="Python.stance_detection" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.comparing_svm_char" />
-        <item itemvalue="Python.comparing_svm_ngram" />
       </list>
     </recent_temporary>
   </component>
@@ -848,13 +852,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.20163691" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.19419643" />
       <window_info id="Structure" order="1" sideWeight="0.5012346" side_tool="true" weight="0.20894371" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833335" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49653044" weight="0.33442622" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49653044" visible="true" weight="0.39016393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -883,9 +888,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search.py" />
-    <entry file="file://$PROJECT_DIR$/extractor.py" />
-    <entry file="file://$PROJECT_DIR$/verificationfacade.py" />
     <entry file="file://$PROJECT_DIR$/trash/test_result.txt" />
     <entry file="file://$PROJECT_DIR$/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/static/css/tabs.css" />
@@ -952,13 +954,6 @@
     <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Dustbin/SVM_LinearSVC_V_1.0.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Kernal Comparison/svc_linear_kernel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Kernal Comparison/svc_poly_kernel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -987,24 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="129" column="1" selection-start-line="128" selection-end-line="132" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_word.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="67" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_ngram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1019,13 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="161" column="80" selection-start-line="161" selection-start-column="80" selection-end-line="161" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/tabstyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1060,13 +1034,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/verification.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Tf-Idf Comparison/comparing_svm_ngram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/Kernal Comparison/svc_linear_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/stance_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="78" column="54" lean-forward="true" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1080,24 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/a_run.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1105,19 +1072,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Stance-Based Model/stance_detection.py">
+    <entry file="file://$USER_HOME$/PycharmProjects/NewsChecker/Model Development/Content-Based Model/SVM_LinearSVC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        <state relative-caret-position="109">
+          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/tabs.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/tabstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="5542" selection-start-line="5542" selection-end-line="5542" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/static/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/verification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model Deployment/verificationfacade.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="-272">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model Deployment/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="255" column="74" selection-start-line="255" selection-start-column="74" selection-end-line="255" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

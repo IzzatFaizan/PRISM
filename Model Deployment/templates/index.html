@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>F A K E R</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>P R I S M</title>
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../static/css/demo.css" />
@@ -17,7 +17,11 @@
 
 		<!-- /container -->
 		<div class="container">
-			<header class="codrops-header" style="padding-top:1.5cm;" >
+            <!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="javascript:history.back()"><span>Previous Demo</span></a>
+            </div>
+			<header class="codrops-header" style="padding-top:1.5cm; font-family: 'Raleway', Arial, sans-serif; " >
                 <h1>Prism : Banteras Berita Palsu<span>Sila Pilih Jenis Berita Anda & Semak</span></h1>
 			</header>
 			<!-- /section -->
@@ -71,7 +75,7 @@
 
 		<!-- /display result -->
 		<div class="codrops-header" id="result" style="padding-top:5cm;">
-			<h1><a href="http://127.0.0.1:5000/" class="label"></a></h1>
+			<h1><a href="https://app-prism.herokuapp.com/" class="label"></a></h1>
 			<h1><span class="probability"></span></h1>
 		</div>
 		<!-- /display result -->
@@ -91,6 +95,7 @@
 
 			$(function() {
 			    $(".codrops-header").show();
+			    $(".codrops-icon").hide();
 				$("#section").hide();
 				$("#result").hide();
     			$(".loading").fadeOut(3000, function()
@@ -121,24 +126,33 @@
 				$(".loading").hide();
 			});
 
+			function goBack() {
+                window.history.back();
+            }
+
             $("#button-url").click(function()
             {
                 $(".codrops-header").hide();
-                $(".container").hide();
+                $("#section").hide();
+                $(".codrops-icon").show();
                 $(".loading").show()
                 $(".loading").fadeOut(9000, function()
 				{
+				    $(".codrops-icon").fadeIn(2000);
 					$("#result").fadeIn(2000);
 				});
             });
 
 			$("#button-text").click(function()
             {
+
                 $(".codrops-header").hide();
-                $(".container").hide();
+                $("#section").hide();
+                $(".codrops-icon").show();
                 $(".loading").show()
                 $(".loading").fadeOut(9000, function()
 				{
+                    $(".codrops-icon").fadeIn(2000);
 					$("#result").fadeIn(2000);
 				});
             });
@@ -179,6 +193,7 @@
                                     $(function() {
                                         $(".loading").fadeOut(3000, function()
                                         {
+                                            $(".codrops-icon").fadeIn(2000);
                                             $("#result").fadeIn(2000);
                                         });
                                     });
@@ -190,10 +205,10 @@
 
 									$(".label").text(data['result']['label'])
 
-									if(data['result']['label']==='Real')
-										$(".probability").text('Kebarangkalian berita anda adalah '+ data['result']['label'] + ' ialah : ' + data['result']['probability'])
+									if(data['result']['label']==='Berita Benar')
+										$(".probability").text('Kebarangkalian berita anda adalah '+ data['result']['label'] + ' ialah : ' + (parseFloat(data['result']['probability'])).toFixed(5)*100 + '%')
 									else
-										$(".probability").text('Kebarangkalian berita anda adalah ' + data['result']['label'] + ' ialah : '+ data['result']['probability'])
+										$(".probability").text('Kebarangkalian berita anda adalah ' + data['result']['label'] + ' ialah : '+ (parseFloat(data['result']['probability'])).toFixed(5)*100 + '%')
 								}
 							}
 
@@ -223,6 +238,13 @@
 
 							success:function(data)
 							{
+                                $(function(){
+                                    $(".loading").fadeOut(3000, function()
+                                    {
+                                            $(".codrops-icon").fadeIn(2000);
+                                            $("#result").fadeIn(2000);
+                                    });
+                                 });
 
                                 $(".tabs tabs-style-bar").hide();
                                 $(".content-wrap").hide();
@@ -231,10 +253,10 @@
 
 								$(".label").text(data['result']['label'])
 
-								if(data['result']['label']==='Real')
-									$(".probability").text('Kebarangkalian berita anda adalah '+ data['result']['label'] + ' ialah : ' + data['result']['probability'])
+								if(data['result']['label']==='Berita Benar')
+									$(".probability").text('Kebarangkalian berita anda adalah '+ data['result']['label'] + ' ialah : ' + (parseFloat(data['result']['probability'])).toFixed(5)*100 + '%')
 								else
-									$(".probability").text('Kebarangkalian berita anda adalah ' + data['result']['label'] + ' ialah : '+ data['result']['probability'])
+									$(".probability").text('Kebarangkalian berita anda adalah ' + data['result']['label'] + ' ialah : '+ (parseFloat(data['result']['probability'])).toFixed(5)*100 + '%')
 							}
 
 						});
