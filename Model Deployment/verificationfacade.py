@@ -17,7 +17,7 @@ def execute_detection_url(url):
     extracted_news = extractor_obj.extract_news(url)
     print(extracted_news)
 
-    if extracted_news == 'error extract':
+    if extracted_news == 'error extraction of the input URL':
         return jsonify({'error': 'Maaf, masalah dengan laman web'})
 
     elif extracted_news == 'invalid URL':

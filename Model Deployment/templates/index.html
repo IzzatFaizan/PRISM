@@ -19,9 +19,9 @@
 		<div class="container">
             <!-- Top Navigation -->
 			<div class="codrops-top clearfix">
-				<a class="codrops-icon codrops-icon-prev" href="javascript:history.back()"><span>Previous Demo</span></a>
+				<a class="codrops-icon codrops-icon-prev"><span>Previous Page</span></a>
             </div>
-			<header class="codrops-header" style="padding-top:1.5cm; font-family: 'Raleway', Arial, sans-serif; " >
+			<header class="codrops-header" id="header" style="padding-top:1.5cm; font-family: 'Raleway', Arial, sans-serif; " >
                 <h1>Prism : Banteras Berita Palsu<span>Sila Pilih Jenis Berita Anda & Semak</span></h1>
 			</header>
 			<!-- /section -->
@@ -30,7 +30,7 @@
 				<div class="tabs tabs-style-bar">
 					<nav>
 						<ul>
-							<li><a href="#section-bar-url" class="icon icon-home" id="urlButton"><span>URL</span></a></li>
+							<li><a href="#section-bar-url" class="icon icon-box" id="urlButton"><span>URL</span></a></li>
 							<li><a href="#section-bar-text" class="icon icon-box" id="textButton"><span>TEKS</span></a></li>
 						</ul>
                     </nav>
@@ -38,12 +38,12 @@
 					<div class="content-wrap">
 						<section id="section-bar-url">
 							<div>
-								<textarea class="form-control" id="textarea-url" type="text" name="text" placeholder="Url atau Pautan..." required="" style="height:200px; width:700px; text-align:center; margin:0 auto;"></textarea>
+								<textarea class="form-control" id="textarea-url" type="text" name="text" cols="50" rows="6" placeholder="Url atau Pautan..." style="text-align:center; margin:0 auto; resize: none;"></textarea>
 							</div>
 							<div class="button" style="padding-top:0.5cm; width: 500px; margin: 0 auto;">
                                 <nav>
                                     <ul>
-                                        <li><a class="icon icon-home" id="button-url"><span>Semak Berita</span></a></li>
+                                        <li><a class="icon icon-home" id="button-url" style="background:#74777b; color: #ffff;"><span>Semak Berita</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -51,12 +51,12 @@
 
 						<section id="section-bar-text">
 							<div>
-								<textarea class="form-control" id="textarea-text" type="text" name="text" placeholder="Teks Berita..." required="" style="height:200px; width:700px; text-align:center; margin:0 auto;"></textarea>
+								<textarea class="form-control" id="textarea-text" type="text" name="text" cols="50" rows="6" placeholder="Teks Berita..." style="text-align:center; margin:0 auto; resize: none;"></textarea>
 							</div>
                             <div class="button" style="padding-top:0.5cm; width: 500px; margin: 0 auto;">
                                 <nav>
                                     <ul>
-                                        <li><a class="icon icon-home" id="button-text"><span>Semak Berita</span></a></li>
+                                        <li><a class="icon icon-home" id="button-text" style="background:#74777b; color: #ffff;"><span>Semak Berita</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -92,6 +92,11 @@
 
 		<!-- /script for show and hide element -->
 		<script>
+		    var ta = document.querySelector('textarea');
+            ta.addEventListener('focus', function()
+            {
+                autosize(ta);
+            });
 
 			$(function() {
 			    $(".codrops-header").show();
@@ -126,9 +131,11 @@
 				$(".loading").hide();
 			});
 
-			function goBack() {
-                window.history.back();
-            }
+			$(".codrops-icon").click(function()
+			{
+                window.location = "http://127.0.0.1:5000/";
+			});
+
 
             $("#button-url").click(function()
             {
@@ -156,6 +163,7 @@
 					$("#result").fadeIn(2000);
 				});
             });
+
 		</script>
 		<!-- / end script for show and hide element -->
 
@@ -166,12 +174,12 @@
 			{
 				$("#button-url").click(function()
 				{
+					var urlCheck=$("#textarea-url").val();
 
-					var urlCheck = $("#textarea-url").val();
-
-					if(urlCheck.trim == "")
+					if(urlCheck.trim() === "")
 					{
 						alert ("Tiada Input, Sila cuba lagi") ;
+						window.location = "https://app-prism.herokuapp.com/";
 					}
 					else
 					{
@@ -186,22 +194,24 @@
 							{
 								if(data['error'])
 								{
-									alert (data['error'])
+									alert(data['error'])
+									window.location = "https://app-prism.herokuapp.com/";
 								}
 								else
 								{
-                                    $(function() {
-                                        $(".loading").fadeOut(3000, function()
-                                        {
-                                            $(".codrops-icon").fadeIn(2000);
-                                            $("#result").fadeIn(2000);
-                                        });
-                                    });
+                                    $("#header").hide();
+                                    $("#section").hide();
+                                    $(".content-wrap").hide();
+                                    $("#urlButton").hide();
+                                    $("#textButton").hide();
 
-									$(".tabs tabs-style-bar").hide();
-									$(".content-wrap").hide();
-									$("#urlButton").hide();
-									$("#textButton").hide();
+                                    $(".loading").show();
+
+                                    $(".loading").fadeOut(3000, function()
+                                    {
+                                        $(".codrops-icon").fadeIn(2000);
+                                        $("#result").fadeIn(2000);
+                                    });
 
 									$(".label").text(data['result']['label'])
 
@@ -220,16 +230,16 @@
 
 				$("#button-text").click(function()
 				{
-
 					var textCheck = $("#textarea-text").val();
 
-					if(textCheck.trim == "")
+					if(textCheck.trim() === "")
 					{
-						alert ("Tiada Input, Sila cuba lagi") ;
+						alert ("Tiada Input, Sila cuba lagi");
+						window.location = "https://app-prism.herokuapp.com/";
 					}
 					else
 					{
-						var textNews = textCheck.replace('?','');
+						var textNews = textCheck.replace('?/^\s+|\s+$/g','');
 
 						$.ajax
 						({
@@ -238,18 +248,21 @@
 
 							success:function(data)
 							{
-                                $(function(){
-                                    $(".loading").fadeOut(3000, function()
-                                    {
-                                            $(".codrops-icon").fadeIn(2000);
-                                            $("#result").fadeIn(2000);
-                                    });
-                                 });
 
-                                $(".tabs tabs-style-bar").hide();
+                                $("#header").hide();
+                                $("#section").hide();
                                 $(".content-wrap").hide();
                                 $("#urlButton").hide();
                                 $("#textButton").hide();
+
+                                $(".loading").show();
+
+                                $(".loading").fadeOut(3000, function()
+                                {
+                                        $(".codrops-icon").fadeIn(2000);
+                                        $("#result").fadeIn(2000);
+                                });
+
 
 								$(".label").text(data['result']['label'])
 
